@@ -1,0 +1,6 @@
+droplet_name = "demoserver"
+enable_private_networking = "true"
+enable_monitoring = "true"
+do_token = ""
+region = "nyc1"
+image_name = "ubuntu-16-04-x86"
