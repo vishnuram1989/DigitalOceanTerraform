@@ -1,6 +1,10 @@
+
+# Provider DigitalOcean
 provider "digitalocean" {
     token = "${var.do_token}"
 }
+
+# Resource Type Droplet
 
 resource "digitalocean_droplet" "droplet-1" {
     name = "${var.droplet_name}"
